@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core="" defer />
       </body>
     </html>
   );

@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div>
       <Suspense fallback={<p>Loading...</p>}>
+        <div className="elfsight-app-7d1a3f7d-3f3e-4091-afcc-a35b05d856b1" />
         <Header/>
         <Hero/>
           <Medicines/>
@@ -24,6 +25,7 @@ export default function Home() {
             </div>
         </div> */}
         <Contact/>
+        
         <Footer/>
       </Suspense>
     </div>
